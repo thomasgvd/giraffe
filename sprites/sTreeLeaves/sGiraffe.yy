@@ -1,21 +1,21 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 9,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 14,
-  "bbox_right": 89,
-  "bbox_top": 64,
-  "bbox_bottom": 94,
+  "bbox_left": 0,
+  "bbox_right": 199,
+  "bbox_top": 0,
+  "bbox_bottom": 199,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 100,
-  "height": 100,
+  "width": 200,
+  "height": 200,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"37abf593-fb98-44af-9e29-9c164c91b003","path":"sprites/sGiraffe/sGiraffe.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"37abf593-fb98-44af-9e29-9c164c91b003","path":"sprites/sGiraffe/sGiraffe.yy",},"LayerId":{"name":"05937eb5-8680-4a54-96d4-70632d3dc448","path":"sprites/sGiraffe/sGiraffe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGiraffe","path":"sprites/sGiraffe/sGiraffe.yy",},"resourceVersion":"1.0","name":"37abf593-fb98-44af-9e29-9c164c91b003","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"58e5e20d-0a2c-4446-9609-34ebce9421a1","path":"sprites/sGiraffe/sGiraffe.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"58e5e20d-0a2c-4446-9609-34ebce9421a1","path":"sprites/sGiraffe/sGiraffe.yy",},"LayerId":{"name":"15f6eb9a-94d0-4550-beb8-c4bb0cb5a433","path":"sprites/sGiraffe/sGiraffe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sGiraffe","path":"sprites/sGiraffe/sGiraffe.yy",},"resourceVersion":"1.0","name":"58e5e20d-0a2c-4446-9609-34ebce9421a1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sGiraffe","path":"sprites/sGiraffe/sGiraffe.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"028e6bc4-212c-4ac4-9776-21ac07e661f3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"37abf593-fb98-44af-9e29-9c164c91b003","path":"sprites/sGiraffe/sGiraffe.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cf1eaf75-e366-445f-96e9-c525b5b89c03","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"58e5e20d-0a2c-4446-9609-34ebce9421a1","path":"sprites/sGiraffe/sGiraffe.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 50,
-    "yorigin": 92,
+    "xorigin": 100,
+    "yorigin": 100,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGiraffe","path":"sprites/sGiraffe/sGiraffe.yy",},
@@ -65,11 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"05937eb5-8680-4a54-96d4-70632d3dc448","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"15f6eb9a-94d0-4550-beb8-c4bb0cb5a433","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Giraffe",
-    "path": "folders/Giraffe.yy",
+    "name": "Global",
+    "path": "folders/Global.yy",
   },
   "resourceVersion": "1.0",
   "name": "sGiraffe",

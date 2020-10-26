@@ -16,16 +16,7 @@ deadTime = 0;
 xTo = randomX;
 yTo = randomY;
 
-with (instance_create_layer(x, y, "Necks", oGiraffeNeck)) {
-	following = other.id;
-	image_yscale = other.neckSize;
-}
-
-with (instance_create_layer(x, y, "Heads", oGiraffeHead)) {
-	following = other.id;
-	xPos = 18;
-	yPos = (other.neckSize / 10) * 32;
-}
+neckSet = false;
 
 function At(_x, _y) {
 	var _border = 10;

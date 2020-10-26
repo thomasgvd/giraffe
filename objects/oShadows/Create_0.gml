@@ -1,0 +1,1 @@
+surShadows = surface_create(room_width, room_height); // Set to view x / y if big room

@@ -24,6 +24,7 @@
     {"isDnD":false,"eventNum":107,"eventType":9,"collisionObjectId":null,"parent":{"name":"oGame","path":"objects/oGame/oGame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":109,"eventType":9,"collisionObjectId":null,"parent":{"name":"oGame","path":"objects/oGame/oGame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oGame","path":"objects/oGame/oGame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"parent":{"name":"oGame","path":"objects/oGame/oGame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

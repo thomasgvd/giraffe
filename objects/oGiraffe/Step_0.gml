@@ -20,7 +20,7 @@ if (state != STATE.DEAD) {
 	}
 } else {
 	deadTime++;
-	if (deadTime > 30) instance_destroy();
+	if (deadTime > 10) instance_destroy();
 }
 
 if (state != STATE.SEARCHING_FOOD) foundTree = false;
@@ -37,7 +37,26 @@ switch (state) {
 x = clamp(x + xSpeed * global.spd, mBorder, room_width - mBorder);
 y = clamp(y + ySpeed * global.spd, mBorder, room_width - mBorder);
 
-var _scale = clamp(age / 10, 0.5, 1.5);
+//var _scale = clamp(age / 10, 0.75, 1.25);
+var _scale = 1;
 
 if (xSpeed < 0) image_xscale = -_scale; else if (state != STATE.DEAD) image_xscale = _scale;
 image_yscale = _scale;
+
+if (!neckSet) {
+	neckSet = true;
+	var coef = neckSize / 5;
+
+	with (instance_create_layer(x, y - sprite_height, "Necks", oGiraffeNeck)) {
+		following = other.id;
+		image_yscale = coef;
+		xPos = 24;
+		yPos = 24;
+	}
+
+	with (instance_create_layer(x, y - sprite_height, "Heads", oGiraffeHead)) {
+		following = other.id;
+		xPos = 55;
+		yPos = coef * sprite_get_height(sGiraffeNeck);
+	}
+}

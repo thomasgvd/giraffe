@@ -2,20 +2,20 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 3,
+  "origin": 9,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 47,
-  "bbox_top": 0,
-  "bbox_bottom": 23,
+  "bbox_left": 1,
+  "bbox_right": 34,
+  "bbox_top": 2,
+  "bbox_bottom": 33,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 48,
-  "height": 24,
+  "width": 36,
+  "height": 36,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"58e5e20d-0a2c-4446-9609-34ebce9421a1","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"58e5e20d-0a2c-4446-9609-34ebce9421a1","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},"LayerId":{"name":"15f6eb9a-94d0-4550-beb8-c4bb0cb5a433","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGiraffeHead","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},"resourceVersion":"1.0","name":"58e5e20d-0a2c-4446-9609-34ebce9421a1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bbd0ca03-5efb-4a4c-a1f3-5488ff5a7868","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bbd0ca03-5efb-4a4c-a1f3-5488ff5a7868","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},"LayerId":{"name":"ae6b3522-9483-4ad8-86e0-2b262f78c023","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sGiraffeHead","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},"resourceVersion":"1.0","name":"bbd0ca03-5efb-4a4c-a1f3-5488ff5a7868","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sGiraffeHead","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"62d3ab03-d06e-4313-bb4c-88449655be2d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"58e5e20d-0a2c-4446-9609-34ebce9421a1","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"30b5612c-06ea-4b90-8397-a23f544e5039","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bbd0ca03-5efb-4a4c-a1f3-5488ff5a7868","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 12,
+    "xorigin": 8,
+    "yorigin": 22,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGiraffeHead","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"15f6eb9a-94d0-4550-beb8-c4bb0cb5a433","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ae6b3522-9483-4ad8-86e0-2b262f78c023","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Giraffe",
