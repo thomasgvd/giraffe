@@ -15,6 +15,7 @@ global.trees = ds_list_create();
 global.giraffes = ds_list_create();
 global.diedOfHunger = 0;
 global.diedOfOldAge = 0;
+global.fontSize = 1;
 
 TREE_CD = 45;
 growTreeCd = TREE_CD;

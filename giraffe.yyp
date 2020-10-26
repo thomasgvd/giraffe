@@ -1,7 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"oFontSmall","path":"fonts/oFontSmall/oFontSmall.yy",},"order":9,},
     {"id":{"name":"sGround","path":"sprites/sGround/sGround.yy",},"order":2,},
     {"id":{"name":"oGiraffe","path":"objects/oGiraffe/oGiraffe.yy",},"order":0,},
+    {"id":{"name":"sGiraffeNeckGUI","path":"sprites/sGiraffeNeckGUI/sGiraffeNeckGUI.yy",},"order":6,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":4,},
     {"id":{"name":"sTreeLeaves","path":"sprites/sTreeLeaves/sTreeLeaves.yy",},"order":4,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":1,},
@@ -12,6 +14,7 @@
     {"id":{"name":"sGiraffe","path":"sprites/sGiraffe/sGiraffe.yy",},"order":3,},
     {"id":{"name":"oGiraffeHead","path":"objects/oGiraffeHead/oGiraffeHead.yy",},"order":1,},
     {"id":{"name":"oGiraffeNeck","path":"objects/oGiraffeNeck/oGiraffeNeck.yy",},"order":2,},
+    {"id":{"name":"oFont2","path":"fonts/oFont2/oFont2.yy",},"order":8,},
     {"id":{"name":"sGiraffeHead","path":"sprites/sGiraffeHead/sGiraffeHead.yy",},"order":4,},
     {"id":{"name":"oTree","path":"objects/oTree/oTree.yy",},"order":1,},
     {"id":{"name":"sTree","path":"sprites/sTree/sTree.yy",},"order":3,},

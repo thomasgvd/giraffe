@@ -1,1 +1,1 @@
-global.spd--;
+global.spd = max(global.spd - 1, 0);
