@@ -9,7 +9,7 @@ enum STATE {
 enum GENDER { MALE, FEMALE }
 
 global.spd = 1;
-nbGiraffes = 10;
+nbGiraffes = 1;
 nbTrees = 10;
 global.trees = ds_list_create();
 global.giraffes = ds_list_create();

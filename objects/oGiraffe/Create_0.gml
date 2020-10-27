@@ -90,7 +90,7 @@ function SearchFoodBehavior() {
 				var xLen = abs(tree.x - x);
 				var yLen = abs(tree.y - y);
 				var len = sqrt(sqr(xLen) + sqr(yLen));
-				if (len > closest[1]) {
+				if (closest[0] == -1 || len < closest[1]) {
 					closest[0] = tree;
 					closest[1] = len;
 				}
@@ -108,7 +108,10 @@ function SearchFoodBehavior() {
 }
 
 function SearchingMateBehavior() {
-	if (foundMate && instance_exists(foundMate)) {
+	
+	if (!instance_exists(foundMate)) foundMate = false;
+	
+	if (foundMate) {
 		xTo = foundMate.x;
 		yTo = foundMate.y;
 		
